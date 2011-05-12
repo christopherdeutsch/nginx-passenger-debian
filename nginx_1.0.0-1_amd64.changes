@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 13 Apr 2011 14:12:00 +0800
+Source: nginx
+Binary: nginx nginx-dbg
+Architecture: source amd64
+Version: 2:1.0.0-1
+Distribution: lucid
+Urgency: low
+Maintainer: Christopher Deutsch <christopher@rightscale.com>
+Changed-By: Christopher Deutsch <christopher@rightscale.com>
+Description: 
+ nginx      - small, but very powerful and efficient web server and mail proxy
+ nginx-dbg  - Debugging symbols for nginx
+Changes: 
+ nginx (2:1.0.0-1) lucid; urgency=low
+ .
+   * Upgraded to nginx 1.0.0
+   * Updated module configuration
+   * Added newrelic patch (See: http://support.newrelic.com/kb/docs/queue-time)
+Checksums-Sha1: 
+ 35447aa29744312cee640774e0ebf3d75f1020bf 961 nginx_1.0.0-1.dsc
+ 1fc6e4b9ac0c709b6c1269dc44080b512aecd3e7 654760 nginx_1.0.0.orig.tar.gz
+ 0d0aba8355919bcb7ee2e38473dcafe22b5e45b8 16680 nginx_1.0.0-1.debian.tar.gz
+ e95bb5ce286c03ba6383f4f9dd6048558dfbe056 490132 nginx_1.0.0-1_amd64.deb
+ 13fcdd0f7f33b4211d661eebf0672d634726c6fb 47634 nginx-dbg_1.0.0-1_amd64.deb
+Checksums-Sha256: 
+ 7cfd0f99cd00b126b507386c851aea2fe90c20dde3104aa73de7bfa4aa0db159 961 nginx_1.0.0-1.dsc
+ 3de3d6caeed56751c24ebc5cfb03475620b9eb0fa999c766a01d44dca674c001 654760 nginx_1.0.0.orig.tar.gz
+ 1ae3ad310ccee99b576f3e210c17793aacd1d567be7d36145bd3e8349fc83413 16680 nginx_1.0.0-1.debian.tar.gz
+ 25239365936cd2cc8979b33dca8cec87b1e2c51fbfe2f11ce5333d0d515ceb25 490132 nginx_1.0.0-1_amd64.deb
+ 6447638d75662c23dc48a449fac4804e0a0fb01e521cffe7eacaeef50dfc44f7 47634 nginx-dbg_1.0.0-1_amd64.deb
+Files: 
+ 578292af9f1a9f0b3654d97455c75eca 961 httpd optional nginx_1.0.0-1.dsc
+ 5751c920c266ea5bb5fc38af77e9c71c 654760 httpd optional nginx_1.0.0.orig.tar.gz
+ 71c286bb1d26e4aa7e410aa0e1c72f6a 16680 httpd optional nginx_1.0.0-1.debian.tar.gz
+ a8f03fcae4ca4316b7d52d10641c9270 490132 httpd optional nginx_1.0.0-1_amd64.deb
+ 1396727bc6552bb53f3f03a64c14179d 47634 debug extra nginx-dbg_1.0.0-1_amd64.deb

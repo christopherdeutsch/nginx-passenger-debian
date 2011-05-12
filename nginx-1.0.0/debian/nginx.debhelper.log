@@ -1,0 +1,9 @@
+dh_prep
+dh_installdirs
+dh_install
+dh_installchangelogs
+dh_installdocs
+dh_installinit
+dh_installman
+dh_installlogrotate
+dh_link

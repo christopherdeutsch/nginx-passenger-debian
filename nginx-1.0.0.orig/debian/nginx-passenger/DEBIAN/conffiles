@@ -1,0 +1,2 @@
+/etc/init.d/nginx-passenger
+/etc/ufw/applications.d/nginx
