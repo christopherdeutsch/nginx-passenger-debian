@@ -1,0 +1,10 @@
+/etc/logrotate.d/nginx
+/etc/init.d/nginx
+/etc/nginx/sites-available/default
+/etc/nginx/mime.types
+/etc/nginx/nginx.conf
+/etc/nginx/koi-win
+/etc/nginx/win-utf
+/etc/nginx/koi-utf
+/etc/nginx/fastcgi_params
+/etc/ufw/applications.d/nginx
