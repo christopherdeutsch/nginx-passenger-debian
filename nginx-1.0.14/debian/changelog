@@ -2,7 +2,7 @@ nginx (2:1.0.14-1) lucid; urgency=high
 
   * Upgraded to nginx 1.0.14 for important security issue fix
 
- -- Christopher Deutsch <christopher@rightscale.com>  Wed, 13 Apr 2011 14:12:00 +0800
+ -- Christopher Deutsch <christopher@rightscale.com>  Thu, 15 Mar 2012 16:21:00 +0800
 
 nginx (2:1.0.0-1) lucid; urgency=low
 
