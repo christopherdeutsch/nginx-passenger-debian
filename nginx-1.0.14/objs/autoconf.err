@@ -158,7 +158,7 @@ gcc -Wall -g -O2 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -o objs/autotest objs/auto
 ----------------------------------------
 checking for crypt()
 
-/tmp/ccOFHMf4.o: In function `main':
+/tmp/ccGg74vH.o: In function `main':
 /root/src/nginx-passenger-debian/nginx-1.0.14/objs/autotest.c:7: undefined reference to `crypt'
 collect2: ld returned 1 exit status
 ----------
@@ -271,7 +271,7 @@ objs/autotest.c:9: warning: null argument where non-null required (argument 1)
 ----------------------------------------
 checking for dlopen()
 
-/tmp/ccP2TOxt.o: In function `main':
+/tmp/ccsmXjoo.o: In function `main':
 /root/src/nginx-passenger-debian/nginx-1.0.14/objs/autotest.c:7: undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 ----------
@@ -355,6 +355,7 @@ checking for int size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for long size
@@ -362,6 +363,7 @@ checking for long size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for long long size
@@ -369,6 +371,7 @@ checking for long long size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for void * size
@@ -376,6 +379,7 @@ checking for void * size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for uint64_t
@@ -395,6 +399,7 @@ checking for sig_atomic_t size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for socklen_t
@@ -430,6 +435,7 @@ checking for size_t size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for off_t size
@@ -437,6 +443,7 @@ checking for off_t size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for time_t size
@@ -444,13 +451,14 @@ checking for time_t size
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:11: warning: implicit declaration of function ‘printf’
 objs/autotest.c:11: warning: incompatible implicit declaration of built-in function ‘printf’
+objs/autotest.c:11: warning: format ‘%d’ expects type ‘int’, but argument 2 has type ‘long unsigned int’
 
 ----------------------------------------
 checking for setproctitle()
 
 objs/autotest.c: In function ‘main’:
 objs/autotest.c:7: warning: implicit declaration of function ‘setproctitle’
-/tmp/ccRu4RZv.o: In function `main':
+/tmp/ccqL4Pt7.o: In function `main':
 /root/src/nginx-passenger-debian/nginx-1.0.14/objs/autotest.c:7: undefined reference to `setproctitle'
 collect2: ld returned 1 exit status
 ----------
@@ -479,7 +487,7 @@ checking for pwrite()
 ----------------------------------------
 checking for sys_nerr
 
-/tmp/ccX1tigV.o: In function `printf':
+/tmp/cc4Sxr6k.o: In function `printf':
 /usr/include/bits/stdio2.h:105: warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead
 132
 ----------------------------------------
@@ -512,7 +520,7 @@ checking for System V shared memory
 ----------------------------------------
 checking for POSIX semaphores
 
-/tmp/ccznxino.o: In function `main':
+/tmp/ccvb4IWQ.o: In function `main':
 /root/src/nginx-passenger-debian/nginx-1.0.14/objs/autotest.c:8: undefined reference to `sem_init'
 /root/src/nginx-passenger-debian/nginx-1.0.14/objs/autotest.c:9: undefined reference to `sem_destroy'
 collect2: ld returned 1 exit status

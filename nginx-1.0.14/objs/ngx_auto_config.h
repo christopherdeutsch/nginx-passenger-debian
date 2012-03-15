@@ -61,7 +61,7 @@
 
 
 #ifndef NGX_CPU_CACHE_LINE
-#define NGX_CPU_CACHE_LINE  32
+#define NGX_CPU_CACHE_LINE  64
 #endif
 
 
@@ -114,7 +114,7 @@
 
 
 #ifndef NGX_PTR_SIZE
-#define NGX_PTR_SIZE  4
+#define NGX_PTR_SIZE  8
 #endif
 
 
@@ -129,12 +129,12 @@
 
 
 #ifndef NGX_MAX_SIZE_T_VALUE
-#define NGX_MAX_SIZE_T_VALUE  2147483647L
+#define NGX_MAX_SIZE_T_VALUE  9223372036854775807LL
 #endif
 
 
 #ifndef NGX_SIZE_T_LEN
-#define NGX_SIZE_T_LEN  (sizeof("-2147483648") - 1)
+#define NGX_SIZE_T_LEN  (sizeof("-9223372036854775808") - 1)
 #endif
 
 
@@ -149,12 +149,12 @@
 
 
 #ifndef NGX_TIME_T_SIZE
-#define NGX_TIME_T_SIZE  4
+#define NGX_TIME_T_SIZE  8
 #endif
 
 
 #ifndef NGX_TIME_T_LEN
-#define NGX_TIME_T_LEN  (sizeof("-2147483648") - 1)
+#define NGX_TIME_T_LEN  (sizeof("-9223372036854775808") - 1)
 #endif
 
 

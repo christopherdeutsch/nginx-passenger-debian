@@ -1,8 +1,8 @@
 Package: nginx
 Version: 2:1.0.14-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Christopher Deutsch <christopher@rightscale.com>
-Installed-Size: 1176
+Installed-Size: 1324
 Depends: libc6 (>= 2.10), libgcc1 (>= 1:4.1.1), libpcre3 (>= 7.7), libssl0.9.8 (>= 0.9.8k-1), libstdc++6 (>= 4.2.1), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14)
 Suggests: ufw
 Provides: httpd

@@ -1,7 +1,7 @@
 Package: nginx-dbg
 Source: nginx
 Version: 2:1.0.14-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Christopher Deutsch <christopher@rightscale.com>
 Installed-Size: 80
 Depends: nginx (= 2:1.0.14-1)
