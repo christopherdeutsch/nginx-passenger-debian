@@ -1,3 +1,2 @@
 Based on the standard Ubuntu Nginx package, the only major changes are that 
-this deb has been upgraded to passenger 0.8.54 and modified to 
-statically compile in passenger.
+this deb has been upgraded to the latest nginx and passenger.
